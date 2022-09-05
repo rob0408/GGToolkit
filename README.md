@@ -38,4 +38,18 @@ Listet Verkaufsbots und andere auf dem CB auf
 
 Bei neuen Funktionen muss das Addon nicht neu runtergeladen werden
 
+### Installation:
+
+#### 1. [GGToolkit.js](https://github.com/rob0408/GGToolkit-LiquidBounce/releases/download/1.0/GGToolkit.js) in den Ordner legen:
+
+- Windows:<br>
+  LiquidBounce b73 `%AppData%\.minecraft\LiqiudBounce-1.8.9\scripts`<br>
+  LiquidBounce b72 `%AppData%\.minecraft\LiqiudBounce-1.8\scripts`
+
+- Linux:<br>
+  LiquidBounce b73 `~/.minecraft/LiquidBounce-1.8.9/scripts`<br>
+  LiquidBounce b72 `~/.minecraft/LiquidBounce-1.8/scripts`
+
+#### 2. Minecraft mit LiquidBounce starten
+
 ### Gerne bei der Entwicklung mithelfen!
