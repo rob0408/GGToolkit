@@ -1,0 +1,20 @@
+{
+  "name": "ggtoolkit-liquidbounce",
+  "version": "1.0.0",
+  "description": "### Offizielles Repository von der GGToolkit Erweiterung",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob0408/GGToolkit-LiquidBounce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rob0408/GGToolkit-LiquidBounce/issues"
+  },
+  "homepage": "https://github.com/rob0408/GGToolkit-LiquidBounce#readme"
+}
