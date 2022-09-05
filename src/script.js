@@ -78,5 +78,5 @@ GGToolkit.append("MysteryMod", {
     })
 })
 
-GGToolkit.credits = "hari"
+GGToolkit.credits = "rob0408"
 GGToolkit.version = 1.0
