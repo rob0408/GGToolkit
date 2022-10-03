@@ -2,11 +2,21 @@
 
 ### Offizielles Repository von der GGToolkit Erweiterung
 
-#### Screenshots:
+#### Screenshot:
 
-![screenshot](https://user-images.githubusercontent.com/87099409/188406801-f60c8a00-f57f-4795-8590-d14c19a6df55.png)
+![screenshot](https://user-images.githubusercontent.com/87099409/193525210-760b9428-4ddc-419d-b52f-862e1a5240c4.png)
 
 #### Funktionen:
+
+##### - AntiCrashSkull
+
+Zeigt harmlose Form vom Crash-Skulls and und macht es so möglich mit diesen umzugehen.
+![screenshot](https://user-images.githubusercontent.com/87099409/193527977-e6dd55d2-7c78-4b29-a72f-5143c2e93ce0.png)
+
+##### - ColorChat
+
+Macht es möglich in Prefix-Farben in den Chat zu schreiben! (funktioniert auch bei msgs)
+![image](https://user-images.githubusercontent.com/87099409/193529000-8a7c1c43-586f-44a4-abff-d1351f5ff928.png)
 
 ##### - MysteryMod
 
