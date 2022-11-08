@@ -2,6 +2,11 @@
 
 ## Funktionen:
 
+### - Radar (neu in Version 1.2)
+
+Hebt besondere Spieler hervor, wie zum Beispiel Scammer und Rentner (einstellbar). <br/>
+![image](https://user-images.githubusercontent.com/87099409/200540464-6c7cf846-4d88-4fab-b35f-053db502fe89.png)
+
 ### - AntiCrashSkull (neu in Version 1.1)
 
 Zeigt harmlose Form vom Crash-Skulls and und macht es so möglich mit diesen umzugehen.
@@ -10,7 +15,7 @@ Zeigt harmlose Form vom Crash-Skulls and und macht es so möglich mit diesen umz
 ### - ColorChat (neu in Version 1.1)
 
 Macht es möglich in Prefix-Farben in den Chat zu schreiben! (funktioniert auch bei msgs)
-![image](https://user-images.githubusercontent.com/87099409/193529000-8a7c1c43-586f-44a4-abff-d1351f5ff928.png)
+![image](https://user-images.githubusercontent.com/87099409/200539843-d74ae17a-3384-41ec-bbba-ab3dcd146237.png)
 
 #### - MysteryMod
 
@@ -44,7 +49,7 @@ Bei neuen Funktionen muss das Addon nicht neu runtergeladen werden
 
 ## Screenshot:
 
-![screenshot](https://user-images.githubusercontent.com/87099409/193525210-760b9428-4ddc-419d-b52f-862e1a5240c4.png)
+![image](https://user-images.githubusercontent.com/87099409/200542099-c6de60c0-6c82-4df8-b0da-472f7e6ef0ba.png)
 
 ## Installation:
 
