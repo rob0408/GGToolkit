@@ -80,7 +80,7 @@ GGToolkit.append("MysteryMod", {
 
 GGToolkit.append("ColorChat", {
     description = "Formatiert deine Nachrichten Regenbogenfarbig im Chat."
-    MixedSettings = [ Farbcodes{>Rainbow >DoppelGelb >DoppelRot >DoppelBlau >DoppelGrün >DoppelGrau >DoppelLila >PinkWeiss >Frühling >Sommer >Herbst >Winter >Weihnachten >Halloween >Halloween-alt}, Privatnachrichten ]
+    MixedSettings = [ Farbcodes{>Rainbow >Lucky >Frost >Deutschland >WeissGrau >DoppelGelb >DoppelRot >DoppelBlau >DoppelGrün >DoppelGrau >DoppelLila >PinkWeiss >Frühling >Sommer >Herbst >Winter >Weihnachten >Halloween >Halloween-alt}, Globalchat, Privatnachrichten ]
 
     HookEventIfEnabled("SendToChat", {
         FormatMessage(GrieferGamesStyle, Farbcodes)
