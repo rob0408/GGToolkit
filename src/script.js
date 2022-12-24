@@ -80,7 +80,7 @@ GGToolkit.append("MysteryMod", {
 
 GGToolkit.append("ColorChat", {
     description = "Formatiert deine Nachrichten Regenbogenfarbig im Chat."
-    MixedSettings = [ Farbcodes{>Rainbow >Lucky >Frost >Deutschland >WeissGrau >DoppelGelb >DoppelRot >DoppelBlau >DoppelGrün >DoppelGrau >DoppelLila >PinkWeiss >Frühling >Sommer >Herbst >Winter >Weihnachten >Halloween >Halloween-alt}, Globalchat, Privatnachrichten ]
+    MixedSettings = [ Farbcodes{>Rainbow >Lucky >Frost >Deutschland >WeissGrau >DoppelGelb >DoppelRot >DoppelBlau >DoppelGrün >DoppelGrau >DoppelLila >PinkWeiss >Frühling >Sommer >Herbst >Winter >Weihnachten >Weihnachten-alt >Halloween >Halloween-alt}, Globalchat, Privatnachrichten ]
 
     HookEventIfEnabled("SendToChat", {
         FormatMessage(GrieferGamesStyle, Farbcodes)
@@ -99,7 +99,7 @@ GGToolkit.append("Radar", {
     description = "Hebt besondere Spieler hervor."
     MixedSettings = [ Scammer, rob0408's Rentner, Tomate's Rentner ]
 
-    Listen = { Scammer{"http://newh1ve.de:8080/scammer/scammers", "§c§lSCAMMER"}, rob0408's Rentner{"https://pastebin.com/raw/7g1G2j55", "§7§lRENTNER"}, Tomate's Rentner{"http://vps-zap883661-1.zap-srv.com", "§7§lRENTNER"} }
+    Listen = { Scammer{"http://newh1ve.de:8080/scammer/scammers", "§c§lSCAMMER"}, Trusted MM's{"http://newh1ve.de:8080/mm/middlemans", "&a&lTRUSTED"}, Rentner (rob0408){"https://pastebin.com/raw/7g1G2j55", "§7§lRENTNER"}, Rentner (Tomate){"http://vps-zap883661-1.zap-srv.com", "§7§lRENTNER"} }
     
     HookEventIfEnabled("LoadPlayerName", {
         SetPrefix(Listen, MixedSettings)
