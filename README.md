@@ -4,7 +4,7 @@
 
 ### - Radar (neu in Version 1.2)
 
-Hebt besondere Spieler hervor, wie zum Beispiel Scammer und Rentner (einstellbar). <br/>
+Hebt besondere Spieler hervor, wie zum Beispiel Scammer, Trusted MM's und Rentner (einstellbar). <br/>
 ![image](https://user-images.githubusercontent.com/87099409/200540464-6c7cf846-4d88-4fab-b35f-053db502fe89.png)
 
 ### - AntiCrashSkull (neu in Version 1.1)
