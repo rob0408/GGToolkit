@@ -1,4 +1,4 @@
-// Copyright 2021 GGToolkit
+// Copyright 2021 - 2023 GGToolkit
 // Gerne im GitHub mithelfen!
 
 import LiquidBounce.category.Categorys
@@ -45,25 +45,6 @@ GGToolkit.append("AutoIch", {
     })
 })
 
-GGToolkit.append("AutoScam", {
-    description = "Registriert Item-Bewegungen und reagiert anpassbar. Shift-Click-Proof (Command: .as)"
-    MixedSettings = [ Aktion{>/p kick * >.t KillAura >Custom-Nachricht}, Shift-Click Check Slot-Wechsel Hotbar-Slot ]
-
-    HookEventIfEnabled("OpenPlayer", {
-        when(WatchSlot(Ziel-Slot).getItem().hasMoved) {
-            if (Shift-Click Check) {
-                Chat.send("/view %p")
-
-                @IfSettingEnabled
-                if (Inventory.heldItem != WatchSlot(Ziel-Slot)) {
-                    abort()
-                }
-            }
-            Chat.send(Aktion)
-        }
-    })
-})
-
 GGToolkit.append("BotFinder", {
     description = "Findet Bots durch ihren Namen und gibt die Liste im Chat aus. (Command: .fb)"
 
@@ -99,7 +80,7 @@ GGToolkit.append("Radar", {
     description = "Hebt besondere Spieler hervor."
     MixedSettings = [ Scammer, rob0408's Rentner, Tomate's Rentner ]
 
-    Listen = { Scammer{"http://newh1ve.de:8080/scammer/scammers", "§c§lSCAMMER"}, Trusted MM's{"http://newh1ve.de:8080/mm/middlemans", "&a&lTRUSTED"}, Rentner (rob0408){"https://pastebin.com/raw/7g1G2j55", "§7§lRENTNER"}, Rentner (Tomate){"http://vps-zap883661-1.zap-srv.com", "§7§lRENTNER"} }
+    Listen = { Scammer{"http://newh1ve.de:8080/scammer/scammers", "§c§lSCAMMER"}, Trusted MM's{"http://newh1ve.de:8080/mm/middlemans", "&a&lTRUSTED"}, Rentner (rob0408){"https://pastebin.com/raw/7g1G2j55", "§7§lRENTNER"}, Rentner (Tomate){"http://vps-zap883661-1.zap-srv.com", "§7§lRENTNER"}, Kiddies{"https://pastebin.com/raw/jM0GstVD", "§c§lK§6§lI§e§lD§a§lD§b§lI§d§lE"}, Ausländer{"https://pastebin.com/raw/husq9rcW", "§5§lKANAKE"}, Transen{"https://pastebin.com/raw/J7yX9jL7", "§b§lT§d§lR§f§lA§d§lN§b§lS§d§lE"}, Furrys{"f66a4ec4-6290-4378-93bd-77e25ff5fdf2", "§9§lFURRY"} }
     
     HookEventIfEnabled("LoadPlayerName", {
         SetPrefix(Listen, MixedSettings)
@@ -107,4 +88,4 @@ GGToolkit.append("Radar", {
 })
 
 GGToolkit.credits = "rob0408"
-GGToolkit.version = 1.2
+GGToolkit.version = 1.4
