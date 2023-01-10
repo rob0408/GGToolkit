@@ -2,10 +2,12 @@
 
 ## Funktionen:
 
-### - Radar (neu in Version 1.2)
+### - Radar (großes Update mit Version 1.4!)
 
-Hebt besondere Spieler hervor, wie zum Beispiel Scammer, Trusted MM's und Rentner (einstellbar). <br/>
-![image](https://user-images.githubusercontent.com/87099409/200540464-6c7cf846-4d88-4fab-b35f-053db502fe89.png)
+Hebt besondere Spieler hervor, wie zum Beispiel Scammer, Trusted MM's, Rentner und mehr!. <br/>
+Seit Version 1.4 kann man Zwischen Prefix und Rang einstellen! <br/>
+![image](https://user-images.githubusercontent.com/87099409/211536078-51f0f09a-e287-4478-b393-a5d8462caf5a.png)
+![image](https://user-images.githubusercontent.com/87099409/211536061-461e520c-09df-48c4-bfc4-77dfc048ad1a.png)
 
 ### - AntiCrashSkull (neu in Version 1.1)
 
@@ -31,7 +33,7 @@ Bestätigt automatisch Standardnachrichten wie /checkplot confirm, /setowner con
 
 Erkennt wenn jemand im Chat sowas schreibt wie "Wer will 5k?" und schreibt automatisch "Ich" oder "me"
 
-#### - AutoScam
+#### - AutoScam (seit Version 1.4 entfernt da von GG gefixed)
 
 Automatisierter /p kick Scam (Shift-Click-Proof)
 
